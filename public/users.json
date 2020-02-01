@@ -1,0 +1,40 @@
+{
+    "users":[
+        {
+            "_id": 1,
+            "name": "Raúl",
+            "email": "raul@example.com",
+            "birthDate": "12-05-97",
+            "image": "https://drive.google.com/open?id=10whD3_RJdy4mruryWoq9q54xmhMkb0Yi",
+            "description" : "blablabla",
+            "password" : "123321",
+            "preferences": "female",
+            "range": {
+                "init": 18,
+                "end": 99
+            },
+            "location": {
+                "type": "Point",
+                "coordinates": [-73.856077, 40.848447]
+        }
+        },
+        {
+            "_id": 2,
+            "name": "Teresa",
+            "email": "teresa@example.com",
+            "birthDate": "12-05-92",
+            "image": "https://drive.google.com/open?id=1URJV2BZjx9DlvPN5X3nw6bqUv5sx-X2m",
+            "description" : "blablabla",
+            "password" : "123321",
+            "preferences": "male",
+            "range": {
+                "init": 18,
+                "end": 99
+            },
+            "location": {
+                "type": "Point",
+                "coordinates": [-73.856077, 40.848447]
+            }
+        }
+    ]
+}
